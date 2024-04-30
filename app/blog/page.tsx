@@ -4,8 +4,9 @@ export default function Blog() {
   return (
     <div>
       <h1>Blog</h1>
-      <p>Welcome to my blog!</p>
-      <Link href="/">Back home</Link>
+      <Link href="/" className="mt-2 underline text-sky-400">
+        Go back home
+      </Link>
     </div>
   );
 }

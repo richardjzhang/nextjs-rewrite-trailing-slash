@@ -4,8 +4,9 @@ export default function Docs() {
   return (
     <div>
       <h1>Docs</h1>
-      <p>Welcome to docs!</p>
-      <Link href="/">Back home</Link>
+      <Link href="/" className="mt-2 underline text-sky-400">
+        Go back home
+      </Link>
     </div>
   );
 }
