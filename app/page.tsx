@@ -10,8 +10,8 @@ export default function Home() {
       <Link href="/blog" className="mt-2 underline text-sky-400">
         Go to Blog without slash
       </Link>
-      <Link href="/posts" className="mt-2 underline text-sky-400">
-        Go to Posts without slash
+      <Link href="/posts" className="mt-2 underline text-amber-400">
+        Go to Posts without slash (Doesn&apos;t work)
       </Link>
       <Link href="/docs/" className="mt-2 underline text-sky-400">
         Go to Docs with slash
